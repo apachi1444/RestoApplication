@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="final_interface_css.css">
+	<link rel="stylesheet" href="css_final_interface/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    
+	<!-- the_header -->
+        
+    		<div class="the_log_out_and_cart sticky-top" id="home">
+    	                <span>&nbsp;&nbsp;&nbsp;<i class="fas fa-phone-alt"></i> +21674546974</span>
+                        <a href="login.html"> <i class="fas fa-user"></i> Connexion &nbsp; &nbsp; &nbsp; | </a>
+
+    	                <a href="cart.html" data-toggle="modal" data-target="#loginModal"> <i class="fas fa-shopping-cart"></i> Panier</a>
+    	    </div>
+    	    <header id ="header" >
+
+    		    <a href="#" class="logo">Shop +</a>
+    		    <i id="menu-bar" class="fas fa-bars"></i>
+    		    <nav class="navbar">
+    		        <!-- <a href="#resto" class="dropdown" > <i class="fas fa-hamburger"></i> Nos Restaurants <i class="fas fa-caret-down"></i></a> -->
+                    <div class="dropdown"> 
+                        <button class="dropbtn">
+                          <i class="fas fa-hamburger"></i> Nos Restaurants
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#"><i class="fas fa-pizza-slice"></i> Fast Food</a>
+                          <a href="#"><i class="fas fa-pepper-hot"></i> Repas</a>
+                        </div>
+                    </div>
+    		        <a href="#top_deals"><i class="fas fa-utensils"></i> Top Deals</a>
+    		        <a href="#contact"><i class="fas fa-address-book"></i> Contact Us</a>
+                    <a href="#popular"><i class="fas fa-landmark"></i> A Propos</a>
+                    <a href="#popular" id="the_exit_button_on_nav"><i class="fas fa-times"></i> </a>
+    		    </nav>
+
+    		</header>
+        
+
+        <div id="sticky_navbar_modified">
+            
+                <a href="#" class="logo">Shop +</a>
+                <i id="menu-bar1" class="fas fa-bars"></i>
+                <nav class="navbar">
+                    <!-- <a href="#resto" class="dropdown" > <i class="fas fa-hamburger"></i> Nos Restaurants <i class="fas fa-caret-down"></i></a> -->
+                    <div class="dropdown"> 
+                        <button class="dropbtn">
+                          <i class="fas fa-hamburger"></i> Nos Restaurants
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#"><i class="fas fa-pizza-slice"></i> Fast Food</a>
+                          <a href="#"><i class="fas fa-pepper-hot"></i> Repas</a>
+                        </div>
+                    </div>
+                    <a href="#top_deals"><i class="fas fa-utensils">  </i> Top Deals</a>
+                    <a href="#contact"><i class="fas fa-address-book"></i> Contact Us</a>
+                    <a href="#popular"><i class="fas fa-landmark"></i> A Propos</a>
+                    
+                </nav>
+
+           
+        </div>
+
+    
+	<!-- the_main_section_welcome -->
+	<!-- <header class="masthead" id ="the_bonjour_text">
+            <div class="container">
+                <div class="masthead-subheading"> <strong> Shop + Food  </strong> Vous souhaite le bienvenue  </div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#top_deals"><i class="fas fa-shopping-cart"></i> Shop Now</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="login.html"><i class="fas fa-user"></i> Connexion</a>
+            </div>
+    </header> -->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="https://source.unsplash.com/R3LcfTvcGWY" style="width:100%;height : 36.2rem ;">
+          <div class="numbertext">
+                <small style = "font-weight: 500;">T'es le </small>  <br> 
+                <p class="text-uppercase" style="font-size :2em;">bienvenue Mr Sur notre siteweb</p> 
+                <br> <br>
+                    <a class=" btn-primary btn-xl button_main_section" href="#top_deals"><i class="fas fa-shopping-cart"></i> Shop Now</a>
+                    <a class="btn-primary btn-xl button_main_section" href="login.html"><i class="fas fa-user"></i> Connexion</a>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/moon.jpg" style="height : 36.2rem ; width: 100%; background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ">
+          <div class="numbertext">
+                <small style = "font-weight: 500;">T'es le </small>  <br> 
+                <p class="text-uppercase" style="font-size :2em;">bienvenue Mr Sur notre siteweb</p> 
+                <br> <br>
+                    <a class=" btn-primary btn-xl button_main_section" href="#top_deals"><i class="fas fa-shopping-cart"></i> Shop Now</a>
+                    <a class="btn-primary btn-xl button_main_section" href="login.html"><i class="fas fa-user"></i> Connexion</a>
+          </div>
+        </div>
+
+
+
+        <div class="mySlides fade">
+          <img src="https://source.unsplash.com/LR559Dcst70" style="width:100% ; filter : contrast(150%); opacity: 0.8;height : 36.2rem ;background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ;">
+          <div class="numbertext">
+                <small style = "font-weight: 500;">T'es le </small>  <br> 
+                <p class="text-uppercase" style="font-size :2em;">bienvenue Mr Sur notre siteweb</p> 
+                <br> <br>
+                    <a class=" btn-primary btn-xl button_main_section" href="#top_deals"><i class="fas fa-shopping-cart"></i> Shop Now</a>
+                    <a class="btn-primary btn-xl button_main_section" href="login.html"><i class="fas fa-user"></i> Connexion</a>
+          </div>
+          
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+<!-- gallery section starts  -->
+<br> <br>
+
+
+
+<div class="carousel-container">
+    <h1 class="heading"> NOS <span> RESTAURANTS</span>  </h1> <br>
+  <div class="carousel-inner">
+    <div class="track">
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <a class="info" href="#">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </a>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+            <img src="images/l'agora.png" alt="">
+        
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+            <img src="images/l'agora.png" alt="">
+          <div class="info">
+            <i class="fas fa-book-open"></i> Voir Catalogue
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="nav">
+    <button class="prev1">
+      <i class="material-icons" style ="color : orange ; font-size: 2em;"> 
+      <
+      </i>
+    </button>
+    <button class="next1" style ="color : orange ; font-size: 2em;">
+      <i class="material-icons">
+      >
+      </i>
+    </button>
+  </div>
+</div>
+
+                                <!-- <section class="gallery" id="resto">
+                                <br>
+                                <h1 class="heading"> NOS <span> RESTAURANTS</span>  </h1>
+
+                                
+                                <div style =" margin-bottom : 2em;">            </div>
+
+                                <div class="box-container ">
+
+                                <a class="prev_resto" onclick="plus1Slides(-1)">&#10094;</a>
+
+
+                                <div class="box1  printed fade" id="1">
+                                    <img src="images/l'agora.png" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1" >1</a>
+                                    </div>
+                                </div>
+                                <div class="box1 printed fade" id ="2">
+                                    <img src="images/g-1.jpg" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1">2</a>
+                                    </div>
+                                </div>
+                                <div class="box1 printed fade" id="3">
+                                    <img src="images/g-2.jpg" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1">3</a>
+                                    </div>
+                                </div>
+                                <div class="box1 printed fade" id="4">
+                                    <img src="images/l'agora.png" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1">4</a>
+                                    </div>
+                                </div>
+
+                                <div class="box1 none_printed fade" id="5">
+                                    <img src="images/g-4.jpg" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1">5</a>
+                                    </div>
+                                </div>
+
+                                <div class="box1 none_printed fade" id="6">
+                                    <img src="images/g-3.jpg" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1">6</a>
+                                    </div>
+                                </div> 
+
+                                <div class="box1 none_printed fade" id="7">
+                                    <img src="images/l'agora.png" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1">7</a>
+                                    </div>
+                                </div> 
+
+                                <div class="box1 none_printed fade" id="8">
+                                    <img src="images/g-6.jpg" alt="">
+                                    <div class="content">
+                                        <a href="#" class="btn1">8</a>
+                                    </div>
+                                </div> 
+
+                                <a class="next_resto" onclick="plus1Slides(1)">&#10095;</a>
+
+
+                                </div>
+
+
+                                </section> -->
+
+
+
+<!-- gallery section ends -->
+
+<!-- top deals -->
+ <section class="top_deals" id="top_deals">
+
+    <h1 class="heading"> TOP <span id ="Deals">DEALS</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> -20% </span>
+            <img src="images/p-1.jpg" alt="">
+            <h3>tasty burger</h3>
+            <p style ="font-size : 15pt; font-weight : bold ">4DT</p>
+            <p style="font-size: 15pt;"> <span style ="text-decoration: line-through; color: red ;">5DT</span> </p>
+            
+            <a href="#" class="btn1"><i class="fas fa-shopping-cart"></i> order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> -20% </span>
+            <img src="images/p-2.jpg" alt="">
+            <h3>tasty acakes</h3>
+            
+            <p style ="font-size : 15pt; font-weight : bold ">4DT</p>
+            <p style="font-size: 15pt;"> <span style ="text-decoration: line-through;">5DT</span> </p>
+            
+            <a href="#" class="btn1"><i class="fas fa-shopping-cart"></i> order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> -20% </span>
+            <img src="images/p-3.jpg" alt="">
+            <h3>tasty sweets</h3>
+            
+            <p style ="font-size : 15pt; font-weight : bold ">4DT</p>
+            <p style="font-size: 15pt;"> <span style ="text-decoration: line-through;">5DT</span> </p>
+            
+            <a href="#" class="btn1"> <i class="fas fa-shopping-cart"></i> order now</a>
+        </div>
+        <div class="box">
+            <span class="price" style ="margin-right : 1em;"> -20% </span>
+            <span class="price" > -20% </span>
+            <img src="images/p-4.jpg" alt="">
+            <h3>tasty cupcakes</h3>
+           
+            <p style ="font-size : 15pt; font-weight : bold ">4DT</p>
+            <p style="font-size: 15pt;"> <span style ="text-decoration: line-through;">5DT</span> </p>
+            
+            <a href="#" class="btn1"><i class="fas fa-shopping-cart"></i> order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> -20% </span>
+<!--             <span class="old_price"> <span style ="text-decoration: line-through;">5dt</span> 3,8dt </span>
+ -->            <img src="images/p-5.jpg" alt="">
+            <h3>cold drinks</h3>
+            
+            <p style ="font-size : 15pt; font-weight : bold ">4DT</p>
+            <p style="font-size: 15pt;"> <span style ="text-decoration: line-through;">5DT</span> </p>
+            
+            <a href="#" class="btn1"><i class="fas fa-shopping-cart"></i> order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> -20% </span>
+            <img src="images/p-6.jpg" alt="">
+            <h3>cold ice-cream</h3>
+            <p style ="font-size : 15pt; font-weight : bold ">4DT</p>
+            <p style="font-size: 15pt;"> <span style ="text-decoration: line-through;">5DT</span> </p>
+            
+            <a href="#" class="btn1"><i class="fas fa-shopping-cart"></i> order now</a>
+
+        </div>
+
+    </div>
+    <br> <br>
+    <a class=" btn-xl text-uppercase read_more_top_deals" href="login.html"><i class="fas fa-plus"></i> Voir Plus</a>
+
+
+</section>
+
+<!-- Nos Choix -->
+<!--  <section class="top_deals" id="choix">
+
+    <h1 class="heading"> NOS <span id ="Deals">CHOIX</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="fast_food.jpg" alt="">
+            <h3>Fast FooD</h3>
+            <a href="#top_deals" class="btn1">SHOP NOW</a>
+        </div>
+        <div class="box">
+            <img src="plat_normal.jpg" alt="">
+            <h3 style = "text-decoration: none ">Plats Normaux</h3>
+            <a href="#" class="btn1">SHOP NOW</a>
+        </div>
+        
+
+    </div>
+
+</section> -->
+
+<!-- gallery section starts  -->
+
+<!-- <section class="gallery" id="gallery">
+
+    <h1 class="heading"> our food <span> gallery </span> ( this part will be printed when the user will choose the restaurant or we can put here the list of available restaurants and we can add the FAQ part) </h1>
+    <div style ="text-align : center; margin-bottom : 1em;">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1" >order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p style ="margin-bottom : 1.8em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn1">order now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> our customers <span>reviews</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="images/pic2.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="images/pic3.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <a class=" btn-xl text-uppercase read_more_top_deals" href="login.html" ><i class="fas fa-plus"></i> Voir Plus</a>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+<!-- Contact-->
+
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contactez-Nous</h2>
+                </div>
+                <div class="text-center">
+                    <textarea name="" id="ur_message" cols="34" rows="1" style ="border-radius: 1em; padding : 1em; box-sizing: border-box;" placeholder="Ecrire Votre Nom Ici" ></textarea>
+                    <textarea name="" id="ur_message" cols="40" rows="1" style ="border-radius: 1em; padding : 1em; box-sizing: border-box;" placeholder="Ecrire Votre Prenom Ici" ></textarea>
+                    <br> <br>
+                    <textarea name="" id="ur_message" cols="80" rows="1" style ="border-radius: 1em; padding : 1em; box-sizing: border-box;" placeholder="Ecrire Votre E-Mail Ici" ></textarea> <br><br>
+                    <textarea name="" id="ur_message" cols="80" rows="10" style ="border-radius: 1em; padding : 1em; box-sizing: border-box;" placeholder="Ecrire Votre Message Ici" ></textarea>
+                </div>
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" style = "margin-top : 2em;" id="submitButton" type="submit">Envoyer</button></div>
+            </div>
+        </section>
+
+
+ <!-- the_footer -->
+ <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">Mlewi</a></li>  
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+
+
+
+<!-- the_scroll_button -->
+<a href="#home" class="fas fa-angle-up position-absolute bottom-0 end-0 p-5" id="scroll-top"></a>
+
+	<!-- custom js file link  -->
+<script src="the_final_interface.js"></script>
+	
+</body>
+</html>

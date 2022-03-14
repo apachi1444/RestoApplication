@@ -1,0 +1,51 @@
+/*********************************************************************/
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+    .carousel1-inner .carousel1-item-right.active,
+    .carousel1-inner .carousel1-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel1-inner .carousel1-item-left.active,
+    .carousel1-inner .carousel1-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+    .carousel1-inner .carousel1-item-right.active,
+    .carousel1-inner .carousel1-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel1-inner .carousel1-item-left.active,
+    .carousel1-inner .carousel1-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel1-inner .carousel1-item>div {
+        display: none;
+    }
+
+    .carousel1-inner .carousel1-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel1-inner .carousel1-item.active,
+.carousel1-inner .carousel1-item-next,
+.carousel1-inner .carousel1-item-prev {
+    display: flex;
+}
+
+.carousel1-inner .carousel1-item-right,
+.carousel1-inner .carousel1-item-left {
+    transform: translateX(0);
+}
